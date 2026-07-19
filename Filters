@@ -1,0 +1,270 @@
+##.ytp-endscreen-content
+*$removeparam=utm_campaign
+*$removeparam=utm_content
+*$removeparam=utm_medium
+*$removeparam=utm_source
+@@||colvk.viki.io^
+@@||litix.io^
+boards.4chan.org##.center.middlead
+cmp-sp.remszeitung.de##.cmp-pur-abo.message-container
+cmp-sp.remszeitung.de##.type-modal.message
+dropgalaxy.com##+js(no-fetch-if, /adsbygoogle|doubleclick|mobileoffers|googlesyndication|histats|creativecdn|crwdcntrl|prebid|sync|cloudflareinsights|vlitag|inklinkor|popmonetizer|adsco|blockadsnot|ads|youtube|dubzenom|rum|google-analytics|openx|hazoopso|lijit|4dex/)
+dropgalaxy.com##+js(no-xhr-if, /adsbygoogle|doubleclick|mobileoffers|googlesyndication|histats|creativecdn|crwdcntrl|prebid|sync|cloudflareinsights|vlitag|inklinkor|popmonetizer|adsco|blockadsnot|ads|youtube|dubzenom|rum|google-analytics|openx|hazoopso|lijit|4dex/)
+facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(display: none):remove()
+facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(position: absolute):remove()
+facebook.com##[role="feed"] span[id] a[href="#"]:not(:has-text(/(\s|\d|^$)/)):upward([role="feed"]>div):style(border: 8px dotted yellow !important)
+facebook.com##[role="feed"] span[id] a[href^="/ads/about/"]:upward([role="feed"]>div)
+facebook.com##[role="feed"] span[id]>[role=button]:has-text(/^Sponsored|Paid for by/):upward([role="feed"]>div)
+fantasy.premierleague.com##.gNsAZP.Dialog__StyledDialog-sc-5bogmv-4
+floorworld.floorjansen.com##.post__cover
+forum.mobilism.org###logo_row
+forum.xda-developers.com##.p-body-sidebar
+forum.xda-developers.com##.uix_sidebarNav
+jav.guru##.banner-container
+javtiful.com##.front-ad-placement-in-video.front-ad-placement
+mikroczat.pl##body > .snowflake
+my.dpd.de###ContentPlaceHolder1_panGreenOptionsHintState1
+mydramalist.com###footer
+mydramalist.com###mdl-game-widget
+mydramalist.com##.app-body>div[class]:has(>div>.htlad-header_top)
+mydramalist.com##.btn-block.white.btn-amazon.btn-sm.btn
+mydramalist.com##.header-user.pull-right.navbar-nav.nav > li.dropdown.nav-item:nth-of-type(1)
+mydramalist.com##.sticky
+old.reddit.com##.RESDialogSmall.RESHoverInfoCard.RESHover
+old.reddit.com##.RESUserTag
+old.reddit.com##.author-tooltip
+old.reddit.com##.crosspost-badge
+old.reddit.com##.crosspost-button
+old.reddit.com##.domain
+old.reddit.com##.flairrichtext
+old.reddit.com##.login-required.report-button
+old.reddit.com##.login-required.save-button.link-save-button
+old.reddit.com##.noCtrlF
+old.reddit.com##.share
+old.reddit.com##.stamp.nsfw-stamp
+old.reddit.com##.stamp.spoiler-stamp
+online.mbank.pl##.uurJ0VsweHnbE3V8_FeI
+photos.google.com##.LJzzuc
+pinterest.com##a[href^="/pin/"]:has(video, img[src*="pinimg"])::after:style(width: 100%; height: 100%; position: absolute; top: 0; left: 0; content: '';)
+pinterest.com##a[href^="/pin/"]:has(video, img[src*="pinimg"]):style(position: relative;)
+reddit.com##.user-hover-card
+reddit.com##div[data-testid="user-hover-card"]
+rutracker.org###bn-top-right
+rutracker.org###latest_news
+rutracker.org##div.bn-idx:nth-of-type(1)
+rutracker.org##div.bn-idx:nth-of-type(3)
+rutracker.org##div.bn-idx:nth-of-type(5)
+sharonwhiledemocratic.com##.plyr__poster
+shop.apotheke-b29.de##.message-overlay
+shop.rewe.de##.plrProductGrid__flagship
+start.duckduckgo.com##.button_size-xs__kck8r.button_ghost___IPIW.button_button__GGtY1.header_aiChatButton__e_9yJ
+tiktok.com##+js(json-prune-fetch-response, itemList.[-].aigcLabelType itemList.[-].moderationAigcLabelType, , propsToMatch, /item_list)
+tiktok.com##+js(json-prune-fetch-response, itemList.[-].aigcLabelType itemList.[-].moderationAigcLabelType, , propsToMatch, /item_list)
+userupload.in##.adb-overlay
+www.bing.com###bopblock
+www.bing.com###rfPane
+www.bing.com##.fd-cntnr.ins_exp
+www.bing.com##.fd-crsl.carousel
+www.bing.com##.header_exp
+www.bing.com##.inline_blk.gencell.varh.iuscp
+www.bing.com##ul.dgControl_list:nth-of-type(10)
+www.bitchute.com##.membership-container
+www.bitchute.com##.mt5.overflow-hidden.row
+www.dailymail.co.uk###articleIconLinksContainer
+www.dailymail.co.uk###infinite-list
+www.dailymail.co.uk###most-read-news-wrapper
+www.dailymail.co.uk###most-watched-videos-wrapper
+www.dailymail.co.uk##.back-to-top
+www.dailymail.co.uk##.bdrcc.rotator
+www.dailymail.co.uk##.floater-19vuu.shared-2QYfa
+www.dailymail.co.uk##.floating-buttons
+www.dailymail.co.uk##.floating-no-ads.has-button-share-facebook.floating-buttons
+www.dailymail.co.uk##.has-button-share.floating-buttons
+www.dailymail.co.uk##.html_snippet_module.item.sciencetech
+www.dailymail.co.uk##.jwplayer_body_1
+www.dailymail.co.uk##.rss_feeds_buttons
+www.dailymail.co.uk##.sponsored
+www.dailymail.co.uk##.supplements
+www.dailymail.co.uk##.vjs-flyout-placeholder
+www.dailymail.co.uk##.vjs-poster
+www.dpd.com##.ng-trigger-toggleChat.ng-trigger.rf-chat-box-container
+www.dpd.com##.rf-chat-box-header
+www.dpd.com##.rf-chat-box-header-close-label
+www.ebay.de###gh-cart-n
+www.ebay.de###rtm_list1
+www.ebay.de###w13
+www.facebook.com##.c1et5uql.bvz0fpym.j83agx80
+www.facebook.com##.l9j0dhe7.buofh1pr.cbu4d94t.j83agx80 > .cxgpxx05
+www.facebook.com##.pfnyh3mw.discj3wi.hv4rvrfc.ihqw7lf3.dati1w0a
+www.facebook.com##.xquyuld.x10wlt62.x6ikm8r.xh8yej3.xt3gfkd.xu5ydu1.xdney7k.x1qpq9i9.x1jx94hy.x1ja2u2z.x1n2onr6.x9f619 > div > .xh8yej3.x1n2onr6.x78zum5
+www.facebook.com##div.x1lliihq:nth-of-type(5)
+www.flashscore.co.uk###box-over-content-a
+www.flashscore.co.uk###live-betting-strip
+www.flashscore.co.uk###tab-live-odds
+www.flashscore.co.uk##.adl__text
+www.flashscore.co.uk##.audioVideoButton__detailButtonContainer
+www.flashscore.co.uk##.bettingStrip
+www.flashscore.co.uk##.gamble
+www.flashscore.co.uk##.outrightWidget.fp-outrightWidget_ONamr
+www.flashscore.co.uk##.prematchOddsBonus__bonus
+www.flashscore.co.uk##.privacySettings
+www.flashscore.co.uk##.section--nmb.section
+www.flashscore.co.uk##.sportNews.sportName
+www.flashscore.co.uk##a.header__item:nth-of-type(2)
+www.huk24.de##.eva_chat_bubble
+www.huk24.de##.eva_chat_bubble_note--shaking.eva_chat_bubble_note
+www.huk24.de##huk-next-best-offer
+www.instagram.com##.xixxii4.x145d82y.x3h4tne.x1nhvcw1.x1oa3qoh.x1qjc9v5.xqjyukv.xdt5ytf.x2lah0s.x1c4vz4f.xryxfnj.x1plvlek.xbiv7yw.x16uus16.x1ga7v0g.x15mokao.x78zum5.xjbqb8w.x9f619
+www.kleinanzeigen.de##.align-center.l-container-row
+www.kleinanzeigen.de##.justify-center.flex-col.flex.min-h-\[179px\]
+www.kleinanzeigen.de##div.mb-small:nth-of-type(2)
+www.kleinanzeigen.de##div.mb-small:nth-of-type(3)
+www.ksk-ostalb.de##div.section.flexboxbase.flexbox:nth-of-type(2)
+www.mediamarkt.de##.heWGIF.sc-25c9a306-0
+www.mediamarkt.de##footer
+www.netflix.com##div.lolomoRow[data-list-context="configbased_cloudpersonalizedgames"]
+www.netflix.com##div.lolomoRow[data-list-context="configbased_mobilepersonalizedgames"]
+www.netflix.com##div.lolomoRow[data-list-context="popularGames"]
+www.pinterest.*##.MIw.QLY.Rym.ojN.p6V.zI7.iyn.Hsu
+www.tiktok.com##.css-1eo184-DivFooterContainer
+www.twitch.tv###directory-banner
+www.twitch.tv###directory-rectangle
+www.twitch.tv##.channel-info-content > div > div > .kbdfeJ.Layout-sc-1xcs6mc-0
+www.twitch.tv##.tw-root--theme-light.hoAkTp.inWwYB.ScLayoutCssVars-sc-10awzi2-1.Layout-sc-1xcs6mc-0
+www.waze.com##.banner--kuc7e
+www.xvideos.com##.notouch.is-desktop.xv-responsive > div
+www.youtube.com###about-these-results
+www.youtube.com###attached-survey
+www.youtube.com###container > .yt-chip-cloud-renderer.style-scope
+www.youtube.com###content-section
+www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
+www.youtube.com###header-container
+www.youtube.com###related :is(yt-lockup-view-model,ytd-compact-video-renderer):has([d^="M6 .5a5.5 5.5 0 100 11"])
+www.youtube.com###related ytd-compact-video-renderer:has([overlay-style="SHORTS"])
+www.youtube.com###secondary
+www.youtube.com###secondary > .ytd-watch-flexy.style-scope
+www.youtube.com###secondary-inner
+www.youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+www.youtube.com##+js(set, yt.config.EXPERIMENTFLAGS.abplman, false)
+www.youtube.com##+js(set, yt.config.EXPERIMENTFLAGS.webenableabrspcl, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.ab_pl_man, false)
+www.youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+www.youtube.com##.opened
+www.youtube.com##.sparkles-light-cta.ytd-in-feed-ad-layout-renderer.style-scope 
+www.youtube.com##.sponsorblock-chapter-visible.ytp-chapter-container
+www.youtube.com##.yt-lockup-metadata-view-model-wiz__avatar
+www.youtube.com##.yt-lockup-metadata-view-model__avatar
+www.youtube.com##.ytContentMetadataViewModelLeadingIcon.ytIconWrapperHost
+www.youtube.com##.ytLockupAttachmentsViewModelHost
+www.youtube.com##.ytLockupMetadataViewModelAvatar
+www.youtube.com##.ytLockupMetadataViewModelMenuButton
+www.youtube.com##.ytSectionHeaderViewModelHost
+www.youtube.com##.ytcp-main-appbar
+www.youtube.com##.ytd-feed-nudge-renderer.style-scope
+www.youtube.com##.ytmThumbnailEndscreenElementHost
+www.youtube.com##.ytp-autonav-toggle-button-container
+www.youtube.com##.ytp-autonav-toggle.ytp-button
+www.youtube.com##.ytp-button.ytp-size-button
+www.youtube.com##.ytp-ce-element-show.ytp-ce-size-1280.ytp-ce-top-left-quad.ytp-ce-large-round.ytp-ce-video.ytp-ce-element
+www.youtube.com##.ytp-ce-element-show.ytp-ce-size-1280.ytp-ce-top-left-quad.ytp-ce-large-round.ytp-ce-video.ytp-ce-element > .ytp-ce-covering-overlay 
+www.youtube.com##.ytp-ce-element-show.ytp-ce-size-1280.ytp-ce-top-right-quad.ytp-ce-large-round.ytp-ce-video.ytp-ce-element 
+www.youtube.com##.ytp-endscreen-content
+www.youtube.com##.ytp-fullscreen-grid
+www.youtube.com##.ytp-show-tiles.videowall-endscreen.ytp-player-content.html5-endscreen
+www.youtube.com##.ytp-videowall-still-image
+www.youtube.com##.ytp-videowall-still-info-content
+www.youtube.com##:xpath(//div[@id='mouseover-overlay'])
+www.youtube.com##:xpath(/html/body/ytd-app/ytd-popup-container)
+www.youtube.com##[tab-title="Shorts"]
+www.youtube.com##grid-shelf-view-model.ytd-item-section-renderer.ytGridShelfViewModelHost
+www.youtube.com##tp-yt-paper-dialog.ytd-popup-container.style-scope > .ytd-popup-container.style-scope
+www.youtube.com##yt-lockup-view-model.ytLockupViewModelWrapper.lockup.ytd-item-section-renderer
+www.youtube.com##ytd-browse[page-subtype="home"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-rich-item-renderer)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-grid-video-renderer,ytd-rich-item-renderer)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has([overlay-style="SHORTS"])
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has([overlay-style="SHORTS"])
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer .ytd-thumbnail[href^="/shorts/"]:upward(ytd-item-section-renderer)
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has([overlay-style="SHORTS"])
+www.youtube.com##ytd-browse[page-subtype="trending"] .ytd-thumbnail[href^="/shorts/"]:upward(ytd-video-renderer)
+www.youtube.com##ytd-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33"]:upward(ytd-guide-entry-renderer)
+www.youtube.com##ytd-mini-guide-renderer a.yt-simple-endpoint path[d^="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33"]:upward(ytd-mini-guide-entry-renderer)
+www.youtube.com##ytd-movie-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##ytd-popup-container.ytd-app.style-scope
+www.youtube.com##ytd-reel-shelf-renderer
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope
+www.youtube.com##ytd-reel-shelf-renderer.ytd-item-section-renderer.style-scope:nth-of-type(1)
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts]
+www.youtube.com##ytd-rich-shelf-renderer[is-shorts].ytd-rich-section-renderer:upward(ytd-rich-section-renderer)
+www.youtube.com##ytd-search .ytd-thumbnail[href^="/shorts/"]:upward(ytd-video-renderer)
+www.youtube.com##ytd-search ytd-video-renderer:has([overlay-style="SHORTS"])
+www.youtube.com##ytd-video-preview
+www.youtube.com##ytd-watch-next-secondary-results-renderer .ytd-thumbnail[href^="/shorts/"]:upward(ytd-compact-video-renderer,ytd-shelf-renderer)
+www.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-compact-video-renderer)
+www.youtube.com##ytm-browse ytm-item-section-renderer ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-video-with-context-renderer)
+www.youtube.com##ytm-pivot-bar-renderer div.pivot-shorts:upward(ytm-pivot-bar-item-renderer)
+www.youtube.com##ytm-reel-shelf-renderer
+www.youtube.com##ytm-search ytm-thumbnail-overlay-time-status-renderer[data-style="SHORTS"]:upward(ytm-compact-video-renderer,ytm-video-with-context-renderer)
+www.youtube.com##ytm-single-column-watch-next-results-renderer ytm-thumbnail-overlay-time-status-renderer span:has-text(/^(0:\d\d|1:0\d)$/):upward(ytm-video-with-context-renderer)
+www.youtube.com#@#+js(json-prune-fetch-response, playerAds adPlacements adSlots playerResponse.playerAds playerResponse.adPlacements playerResponse.adSlots [].playerResponse.adPlacements [].playerResponse.playerAds [].playerResponse.adSlots, '', propsToMatch, /\/(?:player|playlist|get_watch)\?/)
+wykop.pl##.add
+wykop.pl##.good-one
+wykop.pl##.icon-more.icon.dropdown
+wykop.pl##.night.night-mode-switch
+wykop.pl##.toggle-watching
+wykop.pl##.wide-top.tag-top > figure
+wykop.pl##figcaption
+wykop.pl##section.fixed
+youtube.com###container.ytd-masthead:style(display: grid !important; grid-template-columns: repeat(3, 1fr) !important)
+youtube.com##+js(nano-stb, resolve(1), *, 0.001)
+youtube.com##+js(set, Object.prototype.adBlocksFound, 0)
+youtube.com##+js(set, Object.prototype.hasAllowedInstreamAd, true)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.delhi_modern_web_player, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.delhi_modern_web_player_icons, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
+youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
+youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
+youtube.com##+js(trusted-replace-argument, String.prototype.split, this, repl:/&delhi_modern_web_player=true//, condition, H5_async_logging_delay_ms=)
+youtube.com##+js(trusted-replace-argument, String.prototype.split, this, repl:/&delhi_modern_web_player_icons=true//, condition, H5_async_logging_delay_ms=)
+youtube.com##.ytSearchboxComponentHost:style(margin-left: 0 !important)
+youtube.com##.ytSearchboxComponentInputBox:style(margin-left: 0 !important)
+youtube.com##.ytSearchboxComponentSearchButton:style(background-color: #222 !important)
+youtube.com##.ytThumbnailHoverOverlayToggleActionsViewModelHost
+youtube.com##.ytp-cairo-refresh-signature-moments .ytp-play-progress:style(background: #6fa8dc !important;)
+youtube.com##.ytp-ce-covering-overlay
+youtube.com##.ytp-ce-covering-shadow-top
+youtube.com##.ytp-ce-element
+youtube.com##.ytp-pause-overlay
+youtube.com##.ytp-popup-content .ytp-panel-menu .ytp-menuitem:has(> .ytp-menuitem-icon > svg > path[d^="M12 .5C11.73 .5 11.48 .60 11.29 .79C11.10 .98 11 1.23 11 1.5V3.5C11 3.76 11.10 4.01 11.29 4.20C11.48 4.39 11.73 4.5 12"])
+youtube.com##.ytp-popup-content .ytp-panel-menu .ytp-menuitem:has(> .ytp-menuitem-icon > svg > path[d^="M12 .99C5.92 .99 1 5.92 1 11.99C1 18.07 5.92 22.99 12 22.99C18.07 22.99 23 18.07 23 11.99C23 5.92 18.07 .99 12"])
+youtube.com##.ytp-popup-content .ytp-panel-menu .ytp-menuitem:has(> .ytp-menuitem-icon > svg > path[d^="M12.33 1.00C12.22 1.00 12.11 1.00 12 1C5.92 1 1 5.92 1 12C1 18.07 5.92 23 12 23C13.90 23.00"])
+youtube.com##.ytp-popup-content .ytp-panel-menu .ytp-menuitem:has(> .ytp-menuitem-icon > svg > path[d^="M9.65 6.00L9.5 6H2.5L2.34 6.00C1.97 6.04 1.63 6.21 1.38 6.49C1.13 6.77 1.00 7.12 1 7.5V13.5L1.00 13.65C1.04 14.02 1.21 14.36"])
+youtube.com##.ytp-scroll-min.ytp-pause-overlay
+youtube.com##[is-shorts]
+youtube.com##ytd-mini-guide-renderer:style(display: none !important)
+youtube.com##ytd-page-manager:style(--ytd-mini-guide-width: 0 !important)
+youtube.com##ytd-rich-grid-row, #contents.ytd-rich-grid-row:style(display:contents !important;)
+youtube.com#@##player-ads
+zapisz.se##center
+zapisz.se##div.panel-item:nth-of-type(2)
+||*xmashat.gif
+||ads.twitch.tv^
+||cmp-sp.remszeitung.de/index.html?hasCsp=true&message_id=1194536&consentUUID=4bdd77c4-bd65-4ab5-abf9-e74d31e76471_36&consent_origin=https%3A%2F%2Fcmp-sp.remszeitung.de%2Fconsent%2Ftcfv2&preload_message=true&version=v1&consentLanguage=de$subdocument
+||i.dailymail.co.uk/i/pix/fm/
+||i.mol.im/i/furniture/*_skin_
+||i.voe.sx/cache/ll18cv7t28xa_storyboard_L2.jpg$image
+||img1.mitarbeiterangebote.de/446583/d/250x650.jpg$image
+||music.youtube.com^$csp=worker-src 'none'
+||my.dpd.de/images/green_symbol.svg$image
+||player.performgroup.com/eplayer/eplayer.html$subdocument
+||rutrk.org/240x400/220209_01.jpg$image
+||s.4cdn.org/image/contest_banners/c016d293c909f16d8a7d0a8cdda69fdf5c7beba1.gif$image
+||scripts.dailymail.co.uk/static/mol-adverts/
+||scripts.dailymail.co.uk/static/videoplayer/*$script,domain=dailymail.co.uk
+||scripts.dailymail.co.uk/static/videoplayer//2.32.1/scripts/mol-fe-videoplayer.min.js
+||static-assets.highwebmedia.com/tsdefaultassets/cam_notice_background.jpg$image
+||static.criteo.net/js/ld/publishertag.js$domain=dailymail.co.uk
+||taboola.com^$domain=dailymail.co.uk
+||web.static.mmcdn.com/tsdefaultassets/cam_notice_background.jpg$image
+||www.kleinanzeigen.de/liberty/liberty-js/placeholder-logo.svg$image
+||www.youtube.com/web-reports$xhr
+||www.youtube.com^$csp=worker-src 'none'
