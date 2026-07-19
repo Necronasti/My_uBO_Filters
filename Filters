@@ -223,8 +223,6 @@ youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.delhi_modern_web_player_icons,
 youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_enable_ab_rsp_cl, false)
 youtube.com##+js(set, yt.config_.openPopupConfig.supportedPopups.adBlockMessageViewModel, false)
 youtube.com##+js(set, ytplayer.config.args.raw_player_response.adPlacements, [])
-youtube.com##+js(trusted-replace-argument, String.prototype.split, this, repl:/&delhi_modern_web_player=true//, condition, H5_async_logging_delay_ms=)
-youtube.com##+js(trusted-replace-argument, String.prototype.split, this, repl:/&delhi_modern_web_player_icons=true//, condition, H5_async_logging_delay_ms=)
 youtube.com##.ytSearchboxComponentHost:style(margin-left: 0 !important)
 youtube.com##.ytSearchboxComponentInputBox:style(margin-left: 0 !important)
 youtube.com##.ytSearchboxComponentSearchButton:style(background-color: #222 !important)
