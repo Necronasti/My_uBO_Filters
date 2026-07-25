@@ -3,8 +3,6 @@
 *$removeparam=utm_content
 *$removeparam=utm_medium
 *$removeparam=utm_source
-@@||colvk.viki.io^
-@@||litix.io^
 boards.4chan.org##.center.middlead
 cmp-sp.remszeitung.de##.cmp-pur-abo.message-container
 cmp-sp.remszeitung.de##.type-modal.message
@@ -132,7 +130,6 @@ www.twitch.tv###directory-rectangle
 www.twitch.tv##.channel-info-content > div > div > .kbdfeJ.Layout-sc-1xcs6mc-0
 www.twitch.tv##.tw-root--theme-light.hoAkTp.inWwYB.ScLayoutCssVars-sc-10awzi2-1.Layout-sc-1xcs6mc-0
 www.waze.com##.banner--kuc7e
-www.xvideos.com##.notouch.is-desktop.xv-responsive > div
 www.youtube.com###about-these-results
 www.youtube.com###attached-survey
 www.youtube.com###container > .yt-chip-cloud-renderer.style-scope
