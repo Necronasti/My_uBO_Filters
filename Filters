@@ -1,3 +1,7 @@
+! Title: Necronasti priv list
+! Expires: 1 day
+! Homepage: https://github.com/Necronasti/My_uBO_Filters
+
 boards.4chan.org##.center.middlead
 dropgalaxy.com##+js(no-fetch-if, /adsbygoogle|doubleclick|mobileoffers|googlesyndication|histats|creativecdn|crwdcntrl|prebid|sync|cloudflareinsights|vlitag|inklinkor|popmonetizer|adsco|blockadsnot|ads|youtube|dubzenom|rum|google-analytics|openx|hazoopso|lijit|4dex/)
 dropgalaxy.com##+js(no-xhr-if, /adsbygoogle|doubleclick|mobileoffers|googlesyndication|histats|creativecdn|crwdcntrl|prebid|sync|cloudflareinsights|vlitag|inklinkor|popmonetizer|adsco|blockadsnot|ads|youtube|dubzenom|rum|google-analytics|openx|hazoopso|lijit|4dex/)
@@ -106,6 +110,7 @@ wykop.pl##.toggle-watching
 wykop.pl##.wide-top.tag-top > figure
 wykop.pl##figcaption
 wykop.pl##section.fixed
+wykop.pl##.thin-scrollbar.content > .selected
 zapisz.se##center
 zapisz.se##div.panel-item:nth-of-type(2)
 ||*xmashat.gif
