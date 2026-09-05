@@ -2,6 +2,8 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/Necronasti/My_uBO_Filters
 
+@@||litix.io^$xhr,domain=www.viki.com
+@@||colvk.viki.io^$image,domain=www.viki.com
 boards.4chan.org##.center.middlead
 dropgalaxy.com##+js(no-fetch-if, /adsbygoogle|doubleclick|mobileoffers|googlesyndication|histats|creativecdn|crwdcntrl|prebid|sync|cloudflareinsights|vlitag|inklinkor|popmonetizer|adsco|blockadsnot|ads|youtube|dubzenom|rum|google-analytics|openx|hazoopso|lijit|4dex/)
 dropgalaxy.com##+js(no-xhr-if, /adsbygoogle|doubleclick|mobileoffers|googlesyndication|histats|creativecdn|crwdcntrl|prebid|sync|cloudflareinsights|vlitag|inklinkor|popmonetizer|adsco|blockadsnot|ads|youtube|dubzenom|rum|google-analytics|openx|hazoopso|lijit|4dex/)
