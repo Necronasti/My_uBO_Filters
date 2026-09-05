@@ -129,3 +129,19 @@ zapisz.se##div.panel-item:nth-of-type(2)
 ||taboola.com^$domain=dailymail.co.uk
 ||web.static.mmcdn.com/tsdefaultassets/cam_notice_background.jpg$image
 ||www.kleinanzeigen.de/liberty/liberty-js/placeholder-logo.svg$image
+! YT - Hide Shorts
+youtube.com##[is-shorts]
+www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
+www.youtube.com##ytd-search ytd-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+www.youtube.com##ytd-reel-shelf-rendere
+www.youtube.com##[tab-title="Shorts"]
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+www.youtube.com###related :is(ytd-compact-video-renderer,yt-lockup-view-model):has([overlay-style="SHORTS"],[href^="/shorts/"])
+www.youtube.com##ytd-item-section-renderer[page-subtype]:has(>#contents>[is-history]>#dismissible>ytd-thumbnail>#thumbnail[href^="/shorts/"])
+m.youtube.com##ytm-pivot-bar-item-renderer:has(>.pivot-shorts
+m.youtube.com##:is(ytm-rich-section-renderer,grid-shelf-view-model):has([href^="/shorts/"])
+m.youtube.com##ytm-search ytm-video-with-context-renderer:has([href^="/shorts/"])
+m.youtube.com##[tab-title="Shorts"]
+m.youtube.com##[tab-identifier="FEhistory"] ytm-compact-video-renderer:has(>div>a[href^="/shorts/"])
