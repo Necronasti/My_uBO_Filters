@@ -147,3 +147,9 @@ m.youtube.com##:is(ytm-rich-section-renderer,grid-shelf-view-model):has([href^="
 m.youtube.com##ytm-search ytm-video-with-context-renderer:has([href^="/shorts/"])
 m.youtube.com##[tab-title="Shorts"]
 m.youtube.com##[tab-identifier="FEhistory"] ytm-compact-video-renderer:has(>div>a[href^="/shorts/"])
+www.youtube.com###secondary
+1.org##.lg\:w-\[800px\].lg\:h-\[400px\].md\:w-\[600px\].md\:h-\[300px\].w-\[400px\].h-\[200px\].z-5.left-1\/2.bottom-16.fixed
+1.org##.lg\:pl-128.lg\:bottom-\[250px\].md\:pl-104.md\:bottom-\[230px\].pl-18.z-8.left-\[50\%\].bottom-\[160px\].fixed
+1.org##.md\:block.w-full.h-\[4rem\].hidden.z-30.bottom-0.fixed
+||1.org/img/logo-dark.svg$image
+1.org##.z-0.left-0.right-0.top-\[-20px\].absolute > div > canvas
