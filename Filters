@@ -2,9 +2,12 @@
 ! Expires: 1 day
 ! Homepage: https://github.com/Necronasti/My_uBO_Filters
 
-@@||litix.io^$xhr,domain=www.viki.com
+1.org##.lg\:pl-128.lg\:bottom-\[250px\].md\:pl-104.md\:bottom-\[230px\].pl-18.z-8.left-\[50\%\].bottom-\[160px\].fixed
+1.org##.lg\:w-\[800px\].lg\:h-\[400px\].md\:w-\[600px\].md\:h-\[300px\].w-\[400px\].h-\[200px\].z-5.left-1\/2.bottom-16.fixed
+1.org##.md\:block.w-full.h-\[4rem\].hidden.z-30.bottom-0.fixed
+1.org##.z-0.left-0.right-0.top-\[-20px\].absolute > div > canvas
 @@||colvk.viki.io^$image,domain=www.viki.com
-boards.4chan.org##.center.middlead
+@@||litix.io^$xhr,domain=www.viki.com
 dropgalaxy.com##+js(no-fetch-if, /adsbygoogle|doubleclick|mobileoffers|googlesyndication|histats|creativecdn|crwdcntrl|prebid|sync|cloudflareinsights|vlitag|inklinkor|popmonetizer|adsco|blockadsnot|ads|youtube|dubzenom|rum|google-analytics|openx|hazoopso|lijit|4dex/)
 dropgalaxy.com##+js(no-xhr-if, /adsbygoogle|doubleclick|mobileoffers|googlesyndication|histats|creativecdn|crwdcntrl|prebid|sync|cloudflareinsights|vlitag|inklinkor|popmonetizer|adsco|blockadsnot|ads|youtube|dubzenom|rum|google-analytics|openx|hazoopso|lijit|4dex/)
 facebook.com##[role="feed"] span[id] a[href="#"] :matches-css(display: none):remove()
@@ -17,6 +20,11 @@ floorworld.floorjansen.com##.post__cover
 forum.mobilism.org###logo_row
 forum.xda-developers.com##.p-body-sidebar
 forum.xda-developers.com##.uix_sidebarNav
+m.youtube.com##:is(ytm-rich-section-renderer,grid-shelf-view-model):has([href^="/shorts/"])
+m.youtube.com##[tab-identifier="FEhistory"] ytm-compact-video-renderer:has(>div>a[href^="/shorts/"])
+m.youtube.com##[tab-title="Shorts"]
+m.youtube.com##ytm-pivot-bar-item-renderer:has(>.pivot-shorts
+m.youtube.com##ytm-search ytm-video-with-context-renderer:has([href^="/shorts/"])
 mikroczat.pl##body > .snowflake
 my.dpd.de###ContentPlaceHolder1_panGreenOptionsHintState1
 mydramalist.com###footer
@@ -47,7 +55,6 @@ reddit.com##div[data-testid="user-hover-card"]
 shop.apotheke-b29.de##.message-overlay
 shop.rewe.de##.plrProductGrid__flagship
 start.duckduckgo.com##.button_size-xs__kck8r.button_ghost___IPIW.button_button__GGtY1.header_aiChatButton__e_9yJ
-tiktok.com##+js(json-prune-fetch-response, itemList.[-].aigcLabelType itemList.[-].moderationAigcLabelType, , propsToMatch, /item_list)
 tiktok.com##+js(json-prune-fetch-response, itemList.[-].aigcLabelType itemList.[-].moderationAigcLabelType, , propsToMatch, /item_list)
 userupload.in##.adb-overlay
 www.bing.com###bopblock
@@ -104,18 +111,37 @@ www.twitch.tv###directory-rectangle
 www.twitch.tv##.channel-info-content > div > div > .kbdfeJ.Layout-sc-1xcs6mc-0
 www.twitch.tv##.tw-root--theme-light.hoAkTp.inWwYB.ScLayoutCssVars-sc-10awzi2-1.Layout-sc-1xcs6mc-0
 www.waze.com##.banner--kuc7e
+www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
+www.youtube.com###related :is(ytd-compact-video-renderer,yt-lockup-view-model):has([overlay-style="SHORTS"],[href^="/shorts/"])
+www.youtube.com###secondary
+www.youtube.com##[tab-title="Shorts"]
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+www.youtube.com##ytd-item-section-renderer[page-subtype]:has(>#contents>[is-history]>#dismissible>ytd-thumbnail>#thumbnail[href^="/shorts/"])
+www.youtube.com##ytd-reel-shelf-rendere
+www.youtube.com##ytd-search ytd-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
+wykop.pl##*:has(> * > a[target="_blank"] > img)
+wykop.pl##+js(nostif, checkador)
+wykop.pl##+js(nostif, ensureCompatibility)
 wykop.pl##.add
 wykop.pl##.good-one
 wykop.pl##.icon-more.icon.dropdown
 wykop.pl##.night.night-mode-switch
+wykop.pl##.thin-scrollbar.content > .selected
 wykop.pl##.toggle-watching
 wykop.pl##.wide-top.tag-top > figure
+wykop.pl##[data-label^="ad:"]
 wykop.pl##figcaption
 wykop.pl##section.fixed
-wykop.pl##.thin-scrollbar.content > .selected
+wykop.pl##section.link-block:has(li.recommend-label)
+wykop.pl##section.pub-slot-wrapper
+wykop.pl##section.selected:has(> div.content > section.stream.selected-stream)
+youtube.com##[is-shorts]
 zapisz.se##center
 zapisz.se##div.panel-item:nth-of-type(2)
 ||*xmashat.gif
+||1.org/img/logo-dark.svg$image
 ||ads.twitch.tv^
 ||cmp-sp.remszeitung.de/index.html?hasCsp=true&message_id=1194536&consentUUID=4bdd77c4-bd65-4ab5-abf9-e74d31e76471_36&consent_origin=https%3A%2F%2Fcmp-sp.remszeitung.de%2Fconsent%2Ftcfv2&preload_message=true&version=v1&consentLanguage=de$subdocument
 ||i.dailymail.co.uk/i/pix/fm/
@@ -131,25 +157,3 @@ zapisz.se##div.panel-item:nth-of-type(2)
 ||taboola.com^$domain=dailymail.co.uk
 ||web.static.mmcdn.com/tsdefaultassets/cam_notice_background.jpg$image
 ||www.kleinanzeigen.de/liberty/liberty-js/placeholder-logo.svg$image
-! YT - Hide Shorts
-youtube.com##[is-shorts]
-www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
-www.youtube.com##ytd-search ytd-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
-www.youtube.com##ytd-reel-shelf-rendere
-www.youtube.com##[tab-title="Shorts"]
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-grid-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-video-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
-www.youtube.com##ytd-browse[page-subtype="subscriptions"] ytd-rich-item-renderer:has([overlay-style="SHORTS"],[href^="/shorts/"])
-www.youtube.com###related :is(ytd-compact-video-renderer,yt-lockup-view-model):has([overlay-style="SHORTS"],[href^="/shorts/"])
-www.youtube.com##ytd-item-section-renderer[page-subtype]:has(>#contents>[is-history]>#dismissible>ytd-thumbnail>#thumbnail[href^="/shorts/"])
-m.youtube.com##ytm-pivot-bar-item-renderer:has(>.pivot-shorts
-m.youtube.com##:is(ytm-rich-section-renderer,grid-shelf-view-model):has([href^="/shorts/"])
-m.youtube.com##ytm-search ytm-video-with-context-renderer:has([href^="/shorts/"])
-m.youtube.com##[tab-title="Shorts"]
-m.youtube.com##[tab-identifier="FEhistory"] ytm-compact-video-renderer:has(>div>a[href^="/shorts/"])
-www.youtube.com###secondary
-1.org##.lg\:w-\[800px\].lg\:h-\[400px\].md\:w-\[600px\].md\:h-\[300px\].w-\[400px\].h-\[200px\].z-5.left-1\/2.bottom-16.fixed
-1.org##.lg\:pl-128.lg\:bottom-\[250px\].md\:pl-104.md\:bottom-\[230px\].pl-18.z-8.left-\[50\%\].bottom-\[160px\].fixed
-1.org##.md\:block.w-full.h-\[4rem\].hidden.z-30.bottom-0.fixed
-||1.org/img/logo-dark.svg$image
-1.org##.z-0.left-0.right-0.top-\[-20px\].absolute > div > canvas
