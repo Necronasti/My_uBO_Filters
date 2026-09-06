@@ -111,6 +111,7 @@ www.twitch.tv###directory-rectangle
 www.twitch.tv##.channel-info-content > div > div > .kbdfeJ.Layout-sc-1xcs6mc-0
 www.twitch.tv##.tw-root--theme-light.hoAkTp.inWwYB.ScLayoutCssVars-sc-10awzi2-1.Layout-sc-1xcs6mc-0
 www.waze.com##.banner--kuc7e
+www.youtube.com##grid-shelf-view-model.ytd-item-section-renderer.ytGridShelfViewModelHost
 www.youtube.com###guide [title="Shorts"], .ytd-mini-guide-entry-renderer[title="Shorts"]
 www.youtube.com###related :is(ytd-compact-video-renderer,yt-lockup-view-model):has([overlay-style="SHORTS"],[href^="/shorts/"])
 www.youtube.com###secondary
