@@ -158,8 +158,3 @@ zapisz.se##div.panel-item:nth-of-type(2)
 ||taboola.com^$domain=dailymail.co.uk
 ||web.static.mmcdn.com/tsdefaultassets/cam_notice_background.jpg$image
 ||www.kleinanzeigen.de/liberty/liberty-js/placeholder-logo.svg$image
-www.youtube.com##.size-default.style-default.force-icon-button.ytd-masthead.style-scope
-www.youtube.com##span.yt-formatted-string.style-scope
-www.youtube.com##grid-shelf-view-model.ytd-item-section-renderer.ytGridShelfViewModelHost
-www.youtube.com##.ytd-watch-info-text.style-scope
-www.youtube.com##.ytp-fullscreen-grid
