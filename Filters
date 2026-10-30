@@ -172,3 +172,19 @@ www.viki.com##.vmp-center-control > button.vjs-button.vjs-control
 www.viki.com##.vmp-pause-overlay
 viki.com##[class*="content-rating"]
 viki.com##div[class*="sc-b7fd98ab"]
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.disable_theater_mode, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_watch_eligible_to_switch_to_grid, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_watch_enable_single_column_grid_view, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_fixed_panel_watch_next_grid_swap, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_watch_fixed_default_panels, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_engagement_panel_show_description, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_watch_move_summary_to_sd, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_watch_hero_list, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_watch_split_scroll, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.web_side_rail_dismissible_panels, false)
+youtube.com##+js(set, yt.config_.EXPERIMENT_FLAGS.kevlar_watch_hide_comments_while_panel_open, false)
+youtube.com##.ytSideRailViewModelHost
+www.google.com##div:nth-of-type(2) > .C6AK7c > .mXwfNd
+www.youtube.com##ytd-button-renderer.ytd-masthead.style-scope
+wykop.pl##.blue-color.small.simple.button
+www.shop-apotheke.com##.bg-dark-pressed-brand.w-full.z-10.bottom-0.fixed
