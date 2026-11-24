@@ -190,3 +190,4 @@ wykop.pl##.sidebar > article
 uk.pinterest.com##[data-test-id="quick-save-button"]
 uk.pinterest.com##[data-test-id="share-icon-button"]
 uk.pinterest.com##[data-test-id="more-actions-button"]
+wykop.pl##^script[data-cfasync="false"][nowprocket]
