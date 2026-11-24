@@ -185,3 +185,8 @@ www.google.com##div:nth-of-type(2) > .C6AK7c > .mXwfNd
 www.youtube.com##ytd-button-renderer.ytd-masthead.style-scope
 wykop.pl##.blue-color.small.simple.button
 www.shop-apotheke.com##.bg-dark-pressed-brand.w-full.z-10.bottom-0.fixed
+www.youtube.com##.ytThumbnailOverlayBadgeViewModelLarge.ytThumbnailOverlayBadgeViewModelTopStart.ytThumbnailOverlayBadgeViewModelHost
+wykop.pl##.sidebar > article
+uk.pinterest.com##[data-test-id="quick-save-button"]
+uk.pinterest.com##[data-test-id="share-icon-button"]
+uk.pinterest.com##[data-test-id="more-actions-button"]
