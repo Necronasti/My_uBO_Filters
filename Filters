@@ -47,8 +47,6 @@ old.reddit.com##.stamp.nsfw-stamp
 old.reddit.com##.stamp.spoiler-stamp
 online.mbank.pl##.uurJ0VsweHnbE3V8_FeI
 photos.google.com##.LJzzuc
-pinterest.com##a[href^="/pin/"]:has(video, img[src*="pinimg"])::after:style(width: 100%; height: 100%; position: absolute; top: 0; left: 0; content: '';)
-pinterest.com##a[href^="/pin/"]:has(video, img[src*="pinimg"]):style(position: relative;)
 reddit.com##.user-hover-card
 reddit.com##div[data-testid="user-hover-card"]
 shop.apotheke-b29.de##.message-overlay
@@ -103,7 +101,6 @@ www.mediamarkt.de##footer
 www.netflix.com##div.lolomoRow[data-list-context="configbased_cloudpersonalizedgames"]
 www.netflix.com##div.lolomoRow[data-list-context="configbased_mobilepersonalizedgames"]
 www.netflix.com##div.lolomoRow[data-list-context="popularGames"]
-www.pinterest.*##.MIw.QLY.Rym.ojN.p6V.zI7.iyn.Hsu
 www.tiktok.com##.css-1eo184-DivFooterContainer
 www.twitch.tv###directory-banner
 www.twitch.tv###directory-rectangle
